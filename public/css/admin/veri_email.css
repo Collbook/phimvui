@@ -1,0 +1,8 @@
+
+.error {
+    display: inline-block;
+    color: #d73925;
+}
+.hide-error {
+    display: none;
+}

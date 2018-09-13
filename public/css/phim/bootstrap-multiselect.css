@@ -1,0 +1,54 @@
+.bootstrap .multiselect-container {
+  position: absolute;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.bootstrap .multiselect-container .input-group {
+  margin: 5px;
+}
+.bootstrap .multiselect-container > li {
+  padding: 0;
+}
+.bootstrap .multiselect-container > li > a.multiselect-all label {
+  font-weight: 700;
+}
+.bootstrap .multiselect-container > li.multiselect-group label {
+  margin: 0;
+  padding: 3px 20px 3px 20px;
+  height: 100%;
+  font-weight: 700;
+}
+.bootstrap .multiselect-container > li.multiselect-group-clickable label {
+  cursor: pointer;
+}
+.bootstrap .multiselect-container > li > a {
+  padding: 0;
+}
+.bootstrap .multiselect-container > li > a > label {
+  margin: 0;
+  height: 100%;
+  cursor: pointer;
+  font-weight: 400;
+  padding: 3px 20px 3px 40px;
+}
+.bootstrap .multiselect-container > li > a > label.radio,
+.bootstrap .multiselect-container > li > a > label.checkbox {
+  margin: 0;
+}
+.bootstrap .multiselect-container > li > a > label > input[type=checkbox] {
+  margin-bottom: 5px;
+}
+.bootstrap .btn-group > .btn-group:nth-child(2) > .multiselect.btn {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.bootstrap .form-inline .multiselect-container label.checkbox,
+.bootstrap .form-inline .multiselect-container label.radio {
+  padding: 3px 20px 3px 40px;
+}
+.bootstrap .form-inline .multiselect-container li a label.checkbox input[type=checkbox],
+.bootstrap .form-inline .multiselect-container li a label.radio input[type=radio] {
+  margin-left: -20px;
+  margin-right: 0;
+}

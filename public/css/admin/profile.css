@@ -1,0 +1,91 @@
+.profile-detail {
+	position: relative;
+}
+
+#ui-datepicker-div {
+    top: 171px !important;
+}
+.error {
+    display: inline-block;
+    color: #d73925;
+    width: 500px;
+}
+.hide-error {
+    display: none;
+}
+.button_disabled {
+    cursor: not-allowed;
+}
+
+.img-avatar {
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+
+.avatar-content {
+	border: 2px dashed #999;
+	height: 200px;
+	width: 200px;
+	margin: 10px auto;
+}
+
+.avatar-form {
+	padding: 0;
+	/*border: 1px solid red;*/
+	margin: 0px;
+}
+
+input#image {
+	width: 250px;
+}
+
+.av-submit {
+	margin-left: 20px;
+}
+
+.select-img {
+	width: 250px;
+	margin: 16px auto;
+}
+
+#click-to-change-img {
+	text-decoration: none;
+}
+
+#myModal {
+	margin: 20px auto;
+}
+
+.modal-content {
+	width: 300px;
+}
+
+.modal-content1 {
+	width: 450px !important;
+}
+
+.modal-dialog {
+	width: 300px;
+}
+
+.modal-dialog1 {
+	width: 450px !important;
+}
+
+.modal-body {
+	margin: 0;
+	padding: 0;
+}
+
+.avatar-submit {
+	margin: 0;
+}
+
+#image-error {
+	width: 250px;
+	text-align: center;
+}
+
+.label-img {
+	width: 100px;
+}
